@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "incremental": true,
+        "outDir": "dist",
+        "declaration": true
+    },
+    "include": [
+        "src/stream.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
