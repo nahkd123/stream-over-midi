@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Stream data over MIDI System Exclusive Message</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='bundle.js' type="module" defer></script>
+</head>
+<body>
+    <div>
+        <h1>Setting up</h1>
+        <div>
+            <h2>Request permission</h2>
+            <button id="request-permission">Click to request permission</button>
+        </div>
+        <div>
+            <h2>Select input and output</h2>
+            <button id="refresh">Refresh list</button><br><br>
+            Input devices:
+            <div id="input-devices">(There are no input devices... yet!)</div>
+            <br>
+            Output devices:
+            <div id="output-devices">(There are no output devices... yet!)</div>
+        </div>
+    </div>
+    <div>
+        <h1>Communication</h1>
+        <textarea id="message" placeholder="Enter your message..."></textarea>
+        <br>
+        <button id="send">Send</button>
+        <h2>Message log:</h2>
+        <div id="message-log">
+            <pre>--- Start of the session ---</pre>
+        </div>
+    </div>
+</body>
+</html>
