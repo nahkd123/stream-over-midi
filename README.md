@@ -2,7 +2,7 @@
 _This is so stupid..._
 
 <center>
-<img src="./docs/pc.png" height=500> <img src="./docs/android.png" height=500>
+<img src="./docs/pc.png" height="300"> <img src="./docs/android.png" height="300">
 </center>
 
 ## Why?
